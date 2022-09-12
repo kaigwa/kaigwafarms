@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url('drop\ milk\ 1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.rights{
+  padding-top: 220px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copyrights{
+  padding-right: 790px;
+}
+
+.topnav{
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+.active{
+  color: black;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.right{
+  padding-left: 150px;
+  
+}
+.brand{
+  padding-right: 490px;
+  height: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding-right: 100px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 400px;
+  padding-left: 150px;
+  padding-top: 130px;
+  text-align: justify;
+  
+}

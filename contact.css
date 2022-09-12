@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url('drop\ milk\ 3.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 100px;
+  text-align:left;
+  gap: 30px;
+}
+.capital,.enter,.address,.label,.textaria{
+  margin-bottom: 10px;
+}
+.number,.mail{
+  margin-top: 10px;
+
+}
+.remove{
+  text-decoration: none;
+  color:black;
+}
+.remove:hover{
+  color: black;
+  font-weight: bold;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  padding-right: 105px;
+  gap: 20px;
+}
+
+.capital{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.enter,.address{
+  width: 395px;
+  height: 40px;
+}
+.message{
+  width: 400px;
+  height: 100px;
+}
+
+.button{
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.15s;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover{
+  background-color: rgb(89, 89, 89);
+  color: black;
+}
+
+.rights{
+  padding-top: 25px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copyrights{
+  padding-right: 790px;
+}
+
+.topnav{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+.active{
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.right{
+  padding-left: 150px;
+  
+}
+.brand{
+  padding-right: 490px;
+  height: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+
+.sites{
+  font-size: 30px;
+}
+
+.fa-brands{
+  text-decoration: none;
+  font-size: 35px;
+  color:black;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.fa-brands:hover{
+  color: rgb(89, 89, 89);
+}

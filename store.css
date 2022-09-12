@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.maziwa-1{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 30px;
+  height: 30px;
+  accent-color: black;
+}
+.maziwa-2{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 60px;
+  height: 60px;
+  accent-color: black;
+}
+.maziwa-3{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 90px;
+  height: 90px;
+  accent-color: black;
+}
+.maziwa-4{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 120px;
+  height: 120px;
+  accent-color: black;
+}
+.maziwa-4{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 140px;
+  height: 140px;
+  accent-color: black;
+}
+.maziwa-5{
+  font-size: larger;
+  color: white;
+  margin-left: 100px;
+  border: 0px;
+  width: 160px;
+  height: 160px;
+  accent-color: black;
+}
+
+.rights{
+  padding-top: 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copyrights{
+  padding-right: 790px;
+}
+
+.topnav{
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.active{
+  color: black;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.right{
+  padding-left: 150px;
+  
+}
+.brand{
+  padding-right: 490px;
+  height: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  padding-right: 100px;
+}
+.maelezo,.form{
+  padding-left: 100px;
+}
+
+.maelezo{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  text-align:justify;
+  width: 500px;
+  padding-bottom: 25px;
+}
+
+.order{
+  width: 90px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.15s;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.order:hover{
+  background-color: rgb(89, 89, 89);
+  color: white;
+}
+
